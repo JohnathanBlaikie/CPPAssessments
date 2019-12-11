@@ -11,9 +11,9 @@ int main() {
 	bool loop = true;
 	char fN[64];
 	char lN[64];
-	int age = 0;
-	char *fND = new char[8];
-	char *lND = new char[8];
+	int age = 0, maxID = 64;;
+	char *fND = new char[maxID];
+	char *lND = new char[maxID];
 	
 
 	while (loop) {
@@ -24,8 +24,10 @@ int main() {
 		cout << "\nPlease enter your age:\n";
 		cin >> age;
 		UserDefData* uDD = new UserDefData(fN, lN, age);
-		cout << uDD->fN << endl << uDD->lN << endl << uDD->age;
-
+		cout << uDD->fN << endl << uDD->lN << endl << uDD->age << endl;
+		fND = uDD->fN;
+		lND = uDD->lN;
+		
 	}
 	delete fND;
 	delete lND;

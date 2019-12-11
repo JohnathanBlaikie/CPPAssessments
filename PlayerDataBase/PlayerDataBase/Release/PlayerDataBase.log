@@ -1,0 +1,7 @@
+﻿  Main.cpp
+  UDD.cpp
+c:\users\s199009\source\repos\c++ projects\c++assessments\playerdatabase\playerdatabase\udd.cpp(19): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  All 47 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PlayerDataBase.vcxproj -> C:\Users\s199009\source\repos\C++ Projects\C++Assessments\PlayerDataBase\Release\PlayerDataBase.exe
