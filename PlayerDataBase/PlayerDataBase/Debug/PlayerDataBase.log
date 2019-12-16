@@ -1,2 +1,4 @@
 ﻿  Main.cpp
+c:\users\s199009\source\repos\c++ projects\c++assessments\playerdatabase\playerdatabase\main.cpp(13): warning C4101: 'lN': unreferenced local variable
+c:\users\s199009\source\repos\c++ projects\c++assessments\playerdatabase\playerdatabase\main.cpp(12): warning C4101: 'fN': unreferenced local variable
   PlayerDataBase.vcxproj -> C:\Users\s199009\source\repos\C++ Projects\C++Assessments\PlayerDataBase\Debug\PlayerDataBase.exe

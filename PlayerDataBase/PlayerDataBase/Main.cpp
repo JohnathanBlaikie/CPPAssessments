@@ -16,16 +16,16 @@ int main() {
 	char *lND = new char[maxID];
 	
 	cout << "\nPlease enter your first name:\n";
-	cin >> fN;
+	cin >> fND;
 	cout << "\nPlease enter your last name:\n";
-	cin >> lN;
+	cin >> lND;
 	cout << "\nPlease enter your age:\n";
 	cin >> age;
-	UserDefData* uDD = new UserDefData(fN, lN, age);
+	UserDefData* uDD = new UserDefData(fND, lND, age);
 	cout << "User Defined Data:\n";
 	cout << uDD->fN << endl << uDD->lN << endl << uDD->age << endl;
-	fND = uDD->fN;
-	lND = uDD->lN;
+	//fND = uDD->fN;
+	//lND = uDD->lN;
 	cout << "Dynamic Arrays:\n";
 	cout << fND << endl << lND << endl << age << endl;
 	delete[] fND;
